@@ -1,0 +1,8 @@
+.slider__img{
+	height: 670px;
+	object-fit: cover;
+	padding: 0;
+}
+.slider__info{
+	cursor: pointer;
+}

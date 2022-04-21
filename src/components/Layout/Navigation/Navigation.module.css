@@ -1,0 +1,11 @@
+.nav{
+	display: flex;
+	align-items: center;
+	
+}
+
+.separator::after{
+	content: '|';
+	color: #434343;
+
+}

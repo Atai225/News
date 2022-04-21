@@ -1,0 +1,25 @@
+.nav__btn{
+	background-color: #3355DD;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	display: inline-block;
+	font-size: 17px;
+	padding: .5rem 1rem;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	text-decoration: none;
+}
+.nav__btn:hover{
+	color: white;
+}
+.nav{
+	margin-left: 2rem;
+}
+.dropdown-btn{
+	border: none;
+	background-color: transparent;
+}
+

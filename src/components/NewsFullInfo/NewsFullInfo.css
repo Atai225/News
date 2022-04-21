@@ -1,0 +1,136 @@
+.newsinfo__box{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow-x: unset;
+}
+.newsinfo__img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.newsinfo__title{
+	position: absolute;
+	width: 700px;
+	top: 4rem;
+	left: 2rem;
+	border-radius: 10px;
+	z-index: 1;
+	padding: 1rem;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.newsinfo__actions{
+	padding: 1rem 0;
+}
+.newsinfo__data{
+	position: absolute;
+	bottom: 3rem;
+	border-radius: 10px;
+	left: 2rem;
+	z-index: 1;
+	padding: .7rem;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+}
+.newsinfo__content{
+	padding: 3rem;
+	max-width: 1000px;
+
+}
+
+
+.newsinfo .edit-btn{
+	margin-right: 20px;
+}
+.profile-box{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	top: 90%;
+	right: 10rem;
+	max-width: 300px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	background-color: rgb(74, 96, 205);
+	color: white;
+	padding:2rem ;
+}
+.profile-box h2, .profile-box h6{
+	text-align: center;
+}
+.mail-link{
+	color: white;
+	text-decoration: none;
+	
+}
+.mail-link:hover{
+	color: white;
+	text-decoration: underline;
+}
+.socials a{
+
+	text-decoration: none;
+	background-color: white;
+	padding: .4rem .7rem .6rem .7rem;
+	font-size: 20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.socials{
+	display: flex;
+}
+.social__fb, .social__tw{
+	margin-right: 1.5rem;
+}
+.social__fb:hover{
+	background-color: blue;
+	color: white;
+	
+}
+.socials a:hover{
+	transition: .2s ease-in;
+	-webkit-transition: .2s ease-in;
+	-moz-transition: .2s ease-in;
+	-ms-transition: .2s ease-in;
+	-o-transition: .2s ease-in;
+}
+.socials a:hover .twt,.socials a:hover .inst{
+	color: white;
+}
+
+.social__tw:hover{
+	background: #1C9CEA;
+}
+.social__inst:hover{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.author-img__box{
+	width: 130px;
+	height: 130px;
+	margin-bottom: 1rem;
+}
+.author-img{
+	width: 100%;
+	border-radius: 50%;
+	height: 100%;
+	object-fit: cover;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
